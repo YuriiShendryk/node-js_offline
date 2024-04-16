@@ -1,0 +1,19 @@
+{
+  "name": "js_offline",
+  "version": "1.0.0",
+  "description": "This is a repository with code examples from lectures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriiShendryk/node-js_offline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuriiShendryk/node-js_offline/issues"
+  },
+  "homepage": "https://github.com/YuriiShendryk/node-js_offline#readme"
+}
