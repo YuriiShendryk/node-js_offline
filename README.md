@@ -8,4 +8,8 @@ This is a repository with code examples from lectures
 - mvc;
 - restfull api;
 
-
+## lecture 3
+### mongoDB/mongoose:
+- NoSql DBs;
+- mongoDB driver connection;
+- mongoose;
