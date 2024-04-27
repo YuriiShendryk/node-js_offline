@@ -13,3 +13,9 @@ This is a repository with code examples from lectures
 - NoSql DBs;
 - mongoDB driver connection;
 - mongoose;
+
+## lecture 4
+### authentication/authorization:
+- auth router;
+- signUp/signIn endpoints;
+- authGuard (authorization middleware);
