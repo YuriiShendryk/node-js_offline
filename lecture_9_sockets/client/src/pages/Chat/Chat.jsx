@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import io from 'socket.io-client';
 import { getMessages } from '../../services/apiService';
 import { Message } from '../../components/Message/Message';
@@ -7,7 +7,7 @@ import { format } from 'date-fns'
 
 
 
-export const socket = io('localhost:3000');
+export const socket = io(process.env.REACT_APP_SOCKET_SERVER);
 
 export const Chat = () => {
     const [message, setMessage] = useState('');
