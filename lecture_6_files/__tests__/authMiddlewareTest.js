@@ -17,7 +17,7 @@ const getUserById = jest.fn(id => {
 });
 
 
-describe('Auth middleware test', () => {
+describe('Register middleware test', () => {
   // run after each test case
   afterEach(() => (user.token = null));
 
